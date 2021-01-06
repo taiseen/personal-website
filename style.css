@@ -1,4 +1,258 @@
 body{
+    font-family: 'Roboto Condensed', sans-serif;
     margin: 0%;
-    padding: 0%;
+}
+
+h1{
+    font-size: 50px;
+    color: #363958;
+}
+
+p{
+    color: dimgray;
+}
+
+section{
+    height: 500px;
+    padding-bottom: 150px;
+}
+
+/*#####################################################*/
+
+/* Intro --- AREA */
+
+#topMenu{
+    margin-top: 10px;
+    margin-left: 65%;
+    padding-bottom: 20px;
+    overflow: hidden;
+}
+
+#topMenu a {
+    float: left;
+    margin-left: 20px;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 20px;
+}
+#topMenu a:hover{
+    color: rgb(125, 120, 120);
+}
+
+#hello{
+    color: #363958;
+}
+#name{
+    color: orangered;
+}
+
+.half-area{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding: 2%;
+
+}
+
+/* 2 pictures are control from hear */
+.half-area img{
+    width: 70%;
+}
+
+
+.text{
+    line-height: 2;
+    text-align: justify;
+    font-weight: boldr;
+    padding-right: 30px;
+    margin-bottom: 8%;
+    color: #363958;
+    font-size: 20px;
+    
+}
+
+.btn{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, lightSalmon, tomato);
+    padding: 20px 40px;
+    border-radius: 5px;
+    color: white;
+    font-size: 25px;
+}
+
+#intro{
+     
+}
+
+/*#####################################################*/
+
+/* ABOUT --- AREA */
+#about{
+    
+}
+
+/*#####################################################*/
+
+/* LASTET WORKING PROJECT --- AREA */
+#working-project{
+    background-color: #F8F9FC;
+    padding-top: 40px;
+    height: 700px; 
+}
+
+#working-project h1{
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+#org_color{
+    color: #F46060;
+}
+
+.wp_arear{
+    width: 28%;
+    float: left;
+    box-shadow: 1px 1px 25px gray;
+    border: 5px solid white;
+    border-radius: 25px;
+    margin-left: 2%;
+    padding: 1%;
+}
+
+.wp_arear img{
+    width: 100%;
+}
+
+.wp_arear h3{
+    color: #363958;
+    font-size: 25px;
+}
+
+.wp_arear P{
+    color: #363958;
+    font-size: 20px;
+    line-height: 1.5;
+}
+/*#####################################################*/
+
+#work-inquiry{
+   position: relative;
+}
+
+#work-inquiry h1{
+    color: white;
+    text-transform: uppercase;
+    font-size: 70px;
+    position: absolute;
+    top: 35%;
+    left: 20%;
+    z-index: 99;
+}
+
+#work-inquiry a{
+    background-color: springgreen;
+    position: absolute;
+    font-size: 25px;
+    top: 45%;
+    right: 20%;
+    z-index: 99;
+}
+
+#wi_pic_center{
+    width: 70%;
+    position: absolute;
+    top: 25%;
+    left: 15%;
+}
+
+/*#####################################################*/
+
+#contace-me{
+    padding-top: 20PX;
+    background-color: #F8F9FC;
+    height: 550px;
+}
+
+.con-area{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+}
+
+#contace-me h1 {
+    text-align: center;
+}
+/*
+#vertical_bar{
+    border-left: 2px dotted black ;
+    margin-left: 50%;
+    height: 200px;
+    
+}
+*/
+
+#just_speech{
+    color: dimgray;
+    padding-left: 20px;
+    font-size: 30px;
+    
+}
+
+#input_area{
+    border-radius: 5px;
+    padding: 10px;
+}
+
+input{
+    margin-bottom: 15PX;
+    width: 90%;
+    display: block;
+    padding: 10px;
+    border-radius: 2px;
+    border: 0;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+    font-size: 20PX;
+}
+
+input[type=button] {
+    background-color: chocolate;
+    width: 93%;
+    font-size: 20PX;
+    cursor: pointer;
+}
+
+textarea{
+    padding:10px;
+    width: 90%;
+    border-radius: 2px;
+    border: 0;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+    display: block;
+    margin-bottom: 25PX;
+    font-size: 20PX;
+
+}
+
+
+/*#####################################################*/
+
+footer{
+    padding: 40px;
+    text-align: center;
+}
+
+footer p{
+    padding-bottom: 30px;
+    margin: 0 auto;
+    font-size: 35px;
+}
+
+footer a{
+    text-decoration: none;
+    font-size: 50px;
+    font-weight: bolder;
+    padding: 30px;
+
 }
